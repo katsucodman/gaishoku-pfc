@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#123D4C">
-<title>外食PFC v7.3</title>
+<title>外食PFC v7.4</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon.svg">
 <style>
@@ -61,10 +61,20 @@ input:focus,select:focus,button:focus-visible,a:focus-visible{outline:2px solid 
 .notice{background:#FFF2DE;color:#76501A}.error{color:#A32B2B}
 #workout .btn.primary{background:#965039;border-color:#965039;box-shadow:0 3px 9px #96503929}
 @media(max-width:720px){.tabs{background:var(--bg)}}
+
+.work-day{margin-top:14px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.work-date{padding:12px 14px;background:#E3F1EC;color:#123D4C;font-size:16px;font-weight:800}
+.work-day .worklog-card{margin:0;border:0;border-top:1px solid var(--line);border-radius:0;border-left:3px solid var(--coral)}
+.exercise-link{border:0;background:transparent;color:#086D62;text-decoration:underline;text-underline-offset:3px;font:inherit;font-weight:750;padding:0;text-align:left;cursor:pointer}
+.exercise-history{margin-top:16px;padding:15px;border:1px solid #A9D3C8;border-radius:14px;background:#F7FCFA}
+.exercise-history h3{margin:0}.exercise-history .summary{align-items:flex-start}
+.exercise-chart{width:100%;height:auto;max-height:270px;margin-top:12px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.history-session{padding:10px 0;border-top:1px solid var(--line)}.history-session:first-child{border-top:0}
+.history-session b{color:#123D4C}.history-session .chain{line-height:1.5}
 </style>
 </head>
 <body>
-<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v7.3 TEST</small></h1><div class="sub">公式栄養データ 193件 / 10チェーン</div></div><div class="badge">公式値DB</div></div></header>
+<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v7.4 TEST</small></h1><div class="sub">公式栄養データ 193件 / 10チェーン</div></div><div class="badge">公式値DB</div></div></header>
 <main>
 <div class="tabs">
 <button class="tab active" data-tab="search">メニュー</button>
@@ -144,6 +154,7 @@ input:focus,select:focus,button:focus-visible,a:focus-visible{outline:2px solid 
 <div class="card"><div class="summary"><h3>記録履歴</h3><div id="wCount" class="count"></div></div>
 <div class="grid3"><div><label for="wFilter">種目で絞り込み</label><select id="wFilter"><option value="">すべての種目</option></select></div></div>
 <div id="wSummary" class="small"></div><div id="wHistory"></div>
+<div id="wExerciseHistory" class="exercise-history hidden"><div class="summary"><h3 id="wExerciseTitle"></h3><button id="wCloseHistory" class="btn" type="button">閉じる</button></div><div class="small">グラフは日付ごとの最高重量（kg）です。</div><div id="wExerciseChart"></div><div id="wExerciseSessions"></div></div>
 <div class="actions"><button class="btn" id="wExport">バックアップを書き出す</button><button class="btn" id="wImportBtn">バックアップを読み込む</button><input id="wImport" type="file" accept="application/json,.json" hidden></div>
 <div class="small">記録はこのブラウザ内に保存されます。機種変更やSafariのデータ削除に備えて、定期的にバックアップを保存してください。読み込み時は既存の記録を残して追加します。</div>
 </div>
@@ -327,6 +338,29 @@ function renderGymChoices(){
 }
 $("wGymSelect").onchange=()=>{if($("wGymSelect").value)$("wGym").value=$("wGymSelect").value};
 $("wGym").oninput=()=>{$("wGymSelect").value=""};
+let selectedExercise=null;
+const displayWorkoutDate=date=>{const [y,m,d]=date.split("-");return `${y}年${Number(m)}月${Number(d)}日`};
+function renderExerciseHistory(){
+ const panel=$("wExerciseHistory");
+ const entries=workouts.filter(x=>x.exercise===selectedExercise).sort((a,b)=>a.date.localeCompare(b.date)||a.id.localeCompare(b.id));
+ if(!selectedExercise||!entries.length){selectedExercise=null;panel.classList.add("hidden");return}
+ panel.classList.remove("hidden");$("wExerciseTitle").textContent=`${selectedExercise}の履歴`;
+ const daily=new Map();
+ for(const x of entries){const best=Math.max(...x.setDetails.map(v=>v.weight));daily.set(x.date,Math.max(daily.get(x.date)??0,best))}
+ const points=[...daily].map(([date,weight])=>({date,weight}));
+ const width=360,height=200,left=43,right=16,top=17,bottom=33;
+ const maxWeight=Math.max(...points.map(x=>x.weight));
+ const topWeight=Math.max(10,Math.ceil(maxWeight*1.15/10)*10);
+ const px=i=>points.length===1?(left+width-right)/2:left+i*(width-left-right)/(points.length-1);
+ const py=weight=>height-bottom-weight/topWeight*(height-top-bottom);
+ const ticks=[0,topWeight/2,topWeight].map(value=>`<line x1="${left}" y1="${py(value)}" x2="${width-right}" y2="${py(value)}" stroke="#D8E9E3"/><text x="${left-6}" y="${py(value)+4}" text-anchor="end" fill="#4A6770" font-size="11">${Number(value.toFixed(1))}</text>`).join("");
+ const line=points.map((x,i)=>`${px(i)},${py(x.weight)}`).join(" ");
+ const dots=points.length<=40?points.map((x,i)=>`<circle cx="${px(i)}" cy="${py(x.weight)}" r="4" fill="#A74630"><title>${esc(x.date)}: ${x.weight} kg</title></circle>`).join(""):"";
+ const first=points[0].date.replaceAll("-","/"),last=points.length>1?points[points.length-1].date.replaceAll("-","/"):"";
+ $("wExerciseChart").innerHTML=`<svg class="exercise-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(selectedExercise)}の最高重量の推移"><g>${ticks}</g><polyline points="${line}" fill="none" stroke="#096E63" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${dots}<text x="${left}" y="${height-9}" fill="#4A6770" font-size="11">${esc(first)}</text><text x="${width-right}" y="${height-9}" text-anchor="end" fill="#4A6770" font-size="11">${esc(last)}</text><text x="${width-right}" y="${top+3}" text-anchor="end" fill="#4A6770" font-size="11">kg</text></svg>`;
+ $("wExerciseSessions").innerHTML=[...entries].reverse().map(x=>`<div class="history-session"><b>${esc(displayWorkoutDate(x.date))}</b><span class="badge" style="margin-left:8px">最高 ${Math.max(...x.setDetails.map(v=>v.weight))} kg</span><div class="chain">${x.gym?esc(x.gym)+" ・ ":""}${x.setDetails.map((set,i)=>`${i+1}セット ${set.weight} kg × ${set.reps} rep`).join(" / ")}</div></div>`).join("");
+}
+$("wCloseHistory").onclick=()=>{selectedExercise=null;$("wExerciseHistory").classList.add("hidden")};
 function renderWorkouts(){
  renderGymChoices();
  const previous=$("wFilter").value,names=[...new Set(workouts.map(x=>x.exercise))].sort((a,b)=>a.localeCompare(b,"ja"));
@@ -337,7 +371,9 @@ function renderWorkouts(){
  $("wCount").textContent=`${filtered.length}件 / ${workouts.length}件`;
  const totalSets=filtered.reduce((n,x)=>n+x.setDetails.length,0),volume=filtered.reduce((n,x)=>n+x.setDetails.reduce((v,set)=>v+set.weight*set.reps,0),0);
  $("wSummary").textContent=filtered.length?`合計 ${totalSets}セット ・ 重量×回数の合計 ${Math.round(volume*10)/10} kg（自重は0 kgとして計算）`:"";
- $("wHistory").innerHTML=filtered.length?filtered.map(x=>`<div class="worklog-card"><div class="top"><div><div class="name">${esc(x.exercise)}</div><div class="chain">${esc(x.date)}${x.gym?` ・ ${esc(x.gym)}`:""}${x.note?` ・ ${esc(x.note)}`:""}</div></div><span class="badge">${x.setDetails.length}セット</span></div><div class="small">${x.setDetails.map((set,i)=>`${i+1}セット: ${set.weight} kg × ${set.reps} rep`).join("<br>")}</div><div class="worklog-actions"><button class="btn" data-edit-workout="${esc(x.id)}">編集</button><button class="btn" data-delete-workout="${esc(x.id)}">削除</button></div></div>`).join(""):'<div class="empty">記録はまだありません。</div>';
+ const days=new Map();for(const x of filtered){if(!days.has(x.date))days.set(x.date,[]);days.get(x.date).push(x)}
+ $("wHistory").innerHTML=filtered.length?[...days].map(([date,items])=>`<div class="work-day"><div class="work-date">${esc(displayWorkoutDate(date))}</div>${items.map(x=>`<div class="worklog-card"><div class="top"><div><button type="button" class="exercise-link" data-history-exercise="${esc(x.exercise)}">${esc(x.exercise)}</button><div class="chain">${x.gym?esc(x.gym):""}${x.note?` ・ ${esc(x.note)}`:""}</div></div><span class="badge">${x.setDetails.length}セット</span></div><div class="small">${x.setDetails.map((set,i)=>`${i+1}セット: ${set.weight} kg × ${set.reps} rep`).join("<br>")}</div><div class="worklog-actions"><button class="btn" data-edit-workout="${esc(x.id)}">編集</button><button class="btn" data-delete-workout="${esc(x.id)}">削除</button></div></div>`).join("")}</div>`).join(""):'<div class="empty">記録はまだありません。</div>';
+ renderExerciseHistory();
 }
 function resetWorkoutForm(){editingWorkoutId=null;$("wSave").textContent="記録する";$("wCancel").hidden=true;$("wDate").value=localDate();$("wExercise").value="";$("wGym").value="";$("wGymSelect").value="";$("wSetRows").replaceChildren();addSetRow();$("wNote").value=""}
 $("wSave").onclick=()=>{
@@ -352,6 +388,8 @@ $("wSave").onclick=()=>{
 $("wCancel").onclick=()=>{resetWorkoutForm();workoutStatus("編集を取り消しました。")};
 $("wFilter").onchange=renderWorkouts;
 $("wHistory").onclick=e=>{
+ const history=e.target.closest("[data-history-exercise]");
+ if(history){selectedExercise=history.dataset.historyExercise;renderExerciseHistory();$("wExerciseHistory").scrollIntoView({behavior:"smooth",block:"start"});return}
  const edit=e.target.closest("[data-edit-workout]"),del=e.target.closest("[data-delete-workout]");
  if(edit){const x=workouts.find(v=>v.id===edit.dataset.editWorkout);if(!x)return;editingWorkoutId=x.id;$("wDate").value=x.date;$("wExercise").value=x.exercise;$("wGym").value=x.gym;$("wGymSelect").value=x.gym;$("wSetRows").replaceChildren();x.setDetails.forEach(set=>addSetRow(set.weight,set.reps));$("wNote").value=x.note;$("wSave").textContent="変更を保存";$("wCancel").hidden=false;$("wDate").scrollIntoView({behavior:"smooth",block:"center"})}
  if(del){const id=del.dataset.deleteWorkout,x=workouts.find(v=>v.id===id);if(!x||!confirm(`${x.date} ${x.exercise} の記録を削除しますか？`))return;if(saveWorkouts(workouts.filter(v=>v.id!==id))){if(editingWorkoutId===id)resetWorkoutForm();renderWorkouts();workoutStatus("記録を削除しました。")}}
