@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#111827">
-<title>外食PFC v6.1</title>
+<title>外食PFC v6.1.1</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon.svg">
 <style>
@@ -33,7 +33,7 @@ footer{font-size:10px;color:var(--muted);text-align:center;padding:15px}
 </style>
 </head>
 <body>
-<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v6.1 TEST</small></h1><div class="sub">公式栄養データ 193件 / 10チェーン</div></div><div class="badge">公式値DB</div></div></header>
+<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v6.1.1 TEST</small></h1><div class="sub">公式栄養データ 193件 / 10チェーン</div></div><div class="badge">公式値DB</div></div></header>
 <main>
 <div class="tabs">
 <button class="tab active" data-tab="search">メニュー</button>
@@ -167,7 +167,7 @@ function storeDisplayName(tags,chain){
  if(raw.toLowerCase()!==chain.toLowerCase() &&
     !chainAliases[chain]?.some(a=>raw.toLowerCase()===a.toLowerCase())) return raw;
  const address=[tags["addr:city"],tags["addr:street"],tags["addr:housenumber"]].filter(Boolean).join("");
- return address?`${raw}（${address}）`:`${raw}（支店名未登録）`;
+ return address?`${raw}（${address}）`:raw;
 }
 async function overpassNearby(lat,lon,radius){
  const selected=$("storeChain").value;
