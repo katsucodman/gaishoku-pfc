@@ -9,7 +9,9 @@
     "salt": 2.2,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "マクドナルド",
@@ -21,7 +23,9 @@
     "salt": 3.2,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "マクドナルド",
@@ -33,7 +37,9 @@
     "salt": 2.2,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "マクドナルド",
@@ -45,7 +51,9 @@
     "salt": 2.1,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "マクドナルド",
@@ -57,7 +65,9 @@
     "salt": 1.5,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "マクドナルド",
@@ -69,7 +79,9 @@
     "salt": 1.8,
     "checked": "2026-09-27",
     "source_ref": "turn0search2",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -81,7 +93,9 @@
     "salt": 2.6,
     "checked": "2026-09-08",
     "source_ref": "turn2search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -93,7 +107,9 @@
     "salt": 3.0,
     "checked": "2026-09-08",
     "source_ref": "turn2search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -105,7 +121,9 @@
     "salt": 3.5,
     "checked": "2026-09-08",
     "source_ref": "turn2search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -117,7 +135,9 @@
     "salt": 3.5,
     "checked": "2026-09-08",
     "source_ref": "turn2search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -129,7 +149,9 @@
     "salt": 4.5,
     "checked": "2026-09-08",
     "source_ref": "turn2search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -141,7 +163,9 @@
     "salt": 4.5,
     "checked": "2026-09-08",
     "source_ref": "turn2search7",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyu_onioroshi_hp_250422.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -153,7 +177,9 @@
     "salt": 1.1,
     "checked": "2026-08-25",
     "source_ref": "turn2search10",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/sidemenu/side_gyuu_hp_240716.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -165,7 +191,9 @@
     "salt": 1.6,
     "checked": "2026-08-25",
     "source_ref": "turn2search10",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/sidemenu/side_gyuu_hp_240716.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "松屋",
@@ -177,7 +205,9 @@
     "salt": 0.2,
     "checked": "2026-09-08",
     "source_ref": "turn2search3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.matsuyafoods.co.jp/matsuya/menu/lunch/lunch_side_tamago_han_hp_260407.html",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -189,7 +219,9 @@
     "salt": 5.0,
     "checked": "2026-09-27",
     "source_ref": "turn3search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -201,7 +233,9 @@
     "salt": 5.0,
     "checked": "2026-09-27",
     "source_ref": "turn3search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -213,7 +247,9 @@
     "salt": 6.3,
     "checked": "2026-09-27",
     "source_ref": "turn3search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -225,7 +261,9 @@
     "salt": 6.1,
     "checked": "2026-09-27",
     "source_ref": "turn3search0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -237,7 +275,9 @@
     "salt": 3.5,
     "checked": "2026-09-27",
     "source_ref": "turn3search6",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -249,7 +289,9 @@
     "salt": 6.1,
     "checked": "2026-09-27",
     "source_ref": "turn3search1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "やよい軒",
@@ -261,7 +303,9 @@
     "salt": 5.9,
     "checked": "2026-09-27",
     "source_ref": "turn3search3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.yayoiken.com/menu_list/info/40",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "大戸屋",
@@ -371,7 +415,9 @@
     "salt": 2.3,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -383,7 +429,9 @@
     "salt": 2.6,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -395,7 +443,9 @@
     "salt": 2.2,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -407,7 +457,9 @@
     "salt": 2.8,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -419,7 +471,9 @@
     "salt": 1.8,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -431,7 +485,9 @@
     "salt": 2.1,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -443,7 +499,9 @@
     "salt": 2.3,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -455,7 +513,9 @@
     "salt": 1.9,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -467,7 +527,9 @@
     "salt": 1.9,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -479,7 +541,9 @@
     "salt": 1.3,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -491,7 +555,9 @@
     "salt": 2.6,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "モスバーガー",
@@ -503,7 +569,9 @@
     "salt": 1.5,
     "checked": "2026-09-09",
     "source_ref": "turn6view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.mos.jp/quality/product_info/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -515,7 +583,9 @@
     "salt": 3.7,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -527,7 +597,9 @@
     "salt": 1.7,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -539,7 +611,9 @@
     "salt": 3.0,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -551,7 +625,9 @@
     "salt": 1.3,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -563,7 +639,9 @@
     "salt": 1.2,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -575,7 +653,9 @@
     "salt": 1.6,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "バーガーキング",
@@ -587,7 +667,9 @@
     "salt": 2.1,
     "checked": "2026-03-13",
     "source_ref": "turn7view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.burgerking.co.jp/images/org/pdf/2026/01/08/af889feb-3500-412c-abee-a7ce17e65986.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -599,7 +681,9 @@
     "salt": 2.3,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -611,7 +695,9 @@
     "salt": 2.6,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -623,7 +709,9 @@
     "salt": 3.4,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -635,7 +723,9 @@
     "salt": 2.3,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -647,7 +737,9 @@
     "salt": 2.7,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -659,7 +751,9 @@
     "salt": 2.5,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -671,7 +765,9 @@
     "salt": 2.8,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "びっくりドンキー",
@@ -683,7 +779,9 @@
     "salt": 3.6,
     "checked": "2026-09-27",
     "source_ref": "turn7view1",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.bikkuri-donkey.com/nutrition_pdf/",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -695,7 +793,9 @@
     "salt": 3.0,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -707,7 +807,9 @@
     "salt": 3.2,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -719,7 +821,9 @@
     "salt": 4.3,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -731,7 +835,9 @@
     "salt": 3.3,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -743,7 +849,9 @@
     "salt": 3.0,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -755,7 +863,9 @@
     "salt": 2.4,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -767,7 +877,9 @@
     "salt": 2.6,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -779,7 +891,9 @@
     "salt": 2.9,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -791,7 +905,9 @@
     "salt": 4.2,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -803,7 +919,9 @@
     "salt": 2.0,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -815,7 +933,9 @@
     "salt": 2.7,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -827,7 +947,9 @@
     "salt": 1.9,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -839,7 +961,9 @@
     "salt": 2.1,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -851,7 +975,9 @@
     "salt": 1.2,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -863,7 +989,9 @@
     "salt": 2.4,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -875,7 +1003,9 @@
     "salt": 0.5,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -887,7 +1017,9 @@
     "salt": 0.9,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -899,7 +1031,9 @@
     "salt": 1.1,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -911,7 +1045,9 @@
     "salt": 0.3,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ケンタッキーフライドチキン",
@@ -923,7 +1059,9 @@
     "salt": 0.3,
     "checked": "2026-09-11",
     "source_ref": "turn2view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.kfc.co.jp/food_information",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -935,7 +1073,9 @@
     "salt": 3.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -947,7 +1087,9 @@
     "salt": 2.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -959,7 +1101,9 @@
     "salt": 3.1,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -971,7 +1115,9 @@
     "salt": 3.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -983,7 +1129,9 @@
     "salt": 3.1,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -995,7 +1143,9 @@
     "salt": 4.3,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1007,7 +1157,9 @@
     "salt": 4.7,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1019,7 +1171,9 @@
     "salt": 4.7,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1031,7 +1185,9 @@
     "salt": 3.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1043,7 +1199,9 @@
     "salt": 4.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1055,7 +1213,9 @@
     "salt": 5.0,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1067,7 +1227,9 @@
     "salt": 4.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1079,7 +1241,9 @@
     "salt": 4.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1091,7 +1255,9 @@
     "salt": 4.3,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1103,7 +1269,9 @@
     "salt": 4.0,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1115,7 +1283,9 @@
     "salt": 5.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1127,7 +1297,9 @@
     "salt": 3.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1139,7 +1311,9 @@
     "salt": 3.6,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1151,7 +1325,9 @@
     "salt": 3.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1163,7 +1339,9 @@
     "salt": 4.0,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1175,7 +1353,9 @@
     "salt": 3.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1187,7 +1367,9 @@
     "salt": 3.9,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1199,7 +1381,9 @@
     "salt": 4.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1211,7 +1395,9 @@
     "salt": 4.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1223,7 +1409,9 @@
     "salt": 4.4,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1235,7 +1423,9 @@
     "salt": 4.0,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1247,7 +1437,9 @@
     "salt": 0.0,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1259,7 +1451,9 @@
     "salt": 1.3,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1271,7 +1465,9 @@
     "salt": 0.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1283,7 +1479,9 @@
     "salt": 0.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1295,7 +1493,9 @@
     "salt": 0.9,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1307,7 +1507,9 @@
     "salt": 0.8,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1319,7 +1521,9 @@
     "salt": 0.6,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1331,7 +1535,9 @@
     "salt": 0.1,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1343,7 +1549,9 @@
     "salt": 1.1,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "CoCo壱番屋",
@@ -1355,7 +1563,9 @@
     "salt": 1.5,
     "checked": "2026-09-25",
     "source_ref": "turn1view3",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1367,7 +1577,9 @@
     "salt": 0.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1379,7 +1591,9 @@
     "salt": 1.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1391,7 +1605,9 @@
     "salt": 1.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1403,7 +1619,9 @@
     "salt": 2.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1415,7 +1633,9 @@
     "salt": 2.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1427,7 +1647,9 @@
     "salt": 3.3,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1439,7 +1661,9 @@
     "salt": 2.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1451,7 +1675,9 @@
     "salt": 3.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1463,7 +1689,9 @@
     "salt": 5.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1475,7 +1703,9 @@
     "salt": 3.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1487,7 +1717,9 @@
     "salt": 3.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1499,7 +1731,9 @@
     "salt": 4.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1511,7 +1745,9 @@
     "salt": 4.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1523,7 +1759,9 @@
     "salt": 3.3,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1535,7 +1773,9 @@
     "salt": 4.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1547,7 +1787,9 @@
     "salt": 5.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1559,7 +1801,9 @@
     "salt": 5.8,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1571,7 +1815,9 @@
     "salt": 0.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1583,7 +1829,9 @@
     "salt": 4.3,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1595,7 +1843,9 @@
     "salt": 3.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1607,7 +1857,9 @@
     "salt": 0.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1619,7 +1871,9 @@
     "salt": 1.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1631,7 +1885,9 @@
     "salt": 0.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1643,7 +1899,9 @@
     "salt": 0.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1655,7 +1913,9 @@
     "salt": 2.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1667,7 +1927,9 @@
     "salt": 1.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1679,7 +1941,9 @@
     "salt": 1.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1691,7 +1955,9 @@
     "salt": 2.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1703,7 +1969,9 @@
     "salt": 0.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1715,7 +1983,9 @@
     "salt": 1.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1727,7 +1997,9 @@
     "salt": 1.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1739,7 +2011,9 @@
     "salt": 1.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1751,7 +2025,9 @@
     "salt": 4.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1763,7 +2039,9 @@
     "salt": 2.8,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1775,7 +2053,9 @@
     "salt": 8.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1787,7 +2067,9 @@
     "salt": 6.3,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1799,7 +2081,9 @@
     "salt": 7.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1811,7 +2095,9 @@
     "salt": 5.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1823,7 +2109,9 @@
     "salt": 6.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1835,7 +2123,9 @@
     "salt": 9.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1847,7 +2137,9 @@
     "salt": 7.3,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1859,7 +2151,9 @@
     "salt": 4.8,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1871,7 +2165,9 @@
     "salt": 8.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1883,7 +2179,9 @@
     "salt": 6.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1895,7 +2193,9 @@
     "salt": 6.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1907,7 +2207,9 @@
     "salt": 4.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1919,7 +2221,9 @@
     "salt": 5.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1931,7 +2235,9 @@
     "salt": 7.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1943,7 +2249,9 @@
     "salt": 7.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1955,7 +2263,9 @@
     "salt": 8.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1967,7 +2277,9 @@
     "salt": 8.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1979,7 +2291,9 @@
     "salt": 1.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -1991,7 +2305,9 @@
     "salt": 2.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2003,7 +2319,9 @@
     "salt": 4.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2015,7 +2333,9 @@
     "salt": 4.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2027,7 +2347,9 @@
     "salt": 8.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2039,7 +2361,9 @@
     "salt": 0.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2051,7 +2375,9 @@
     "salt": 4.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2063,7 +2389,9 @@
     "salt": 7.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2075,7 +2403,9 @@
     "salt": 4.8,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2087,7 +2417,9 @@
     "salt": 4.9,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2099,7 +2431,9 @@
     "salt": 5.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2111,7 +2445,9 @@
     "salt": 2.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2123,7 +2459,9 @@
     "salt": 8.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2135,7 +2473,9 @@
     "salt": 5.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2147,7 +2487,9 @@
     "salt": 7.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2159,7 +2501,9 @@
     "salt": 9.8,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2171,7 +2515,9 @@
     "salt": 0.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2183,7 +2529,9 @@
     "salt": 0.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2195,7 +2543,9 @@
     "salt": 0.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2207,7 +2557,9 @@
     "salt": 0.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2219,7 +2571,9 @@
     "salt": 0.0,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2231,7 +2585,9 @@
     "salt": 10.5,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2243,7 +2599,9 @@
     "salt": 22.4,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2255,7 +2613,9 @@
     "salt": 0.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2267,7 +2627,9 @@
     "salt": 2.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2279,7 +2641,9 @@
     "salt": 4.6,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2291,7 +2655,9 @@
     "salt": 4.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2303,7 +2669,9 @@
     "salt": 7.1,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2315,7 +2683,9 @@
     "salt": 6.7,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "ジョイフル",
@@ -2327,7 +2697,9 @@
     "salt": 5.2,
     "checked": "2026-09-08",
     "source_ref": "turn1view0",
-    "data_quality": "official_full"
+    "data_quality": "official_full",
+    "source_url": "https://www.joyfull.co.jp/cal_pdf/cal.pdf",
+    "source_link_note": "公式栄養ページ（掲載内容は更新されます）"
   },
   {
     "chain": "リンガーハット",
