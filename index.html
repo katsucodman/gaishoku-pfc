@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#123D4C">
-<title>外食PFC v7.10</title>
+<title>外食PFC v7.11</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon.svg">
 <style>
@@ -21,6 +21,7 @@ label{display:block;font-size:11px;color:var(--muted);margin:0 0 4px}input,selec
 .chips{display:flex;gap:7px;overflow:auto;padding-bottom:3px}.chip{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;font-size:12px;cursor:pointer}
 .summary{display:flex;justify-content:space-between;align-items:center;gap:10px}.count{font-size:12px;color:var(--muted)}
 .results,.stores{display:grid;gap:9px}.item,.store{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.top{display:flex;justify-content:space-between;gap:10px}.name{font-weight:750}.chain{font-size:12px;color:var(--muted);margin-top:2px}
+.menu-actions{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap}.favorite-btn{border:1px solid #DCAEA2;border-radius:999px;background:#fff;color:#8D3E32;padding:7px 10px;cursor:pointer;white-space:nowrap;font-size:12px;min-height:36px}.favorite-btn[aria-pressed="true"]{background:#FCEAE5;border-color:#C76654;color:#913E30;font-weight:700}
 .metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:10px}.metricbox{background:#f8fafc;border-radius:9px;padding:7px;text-align:center}.metricbox b{display:block;font-size:14px}.metricbox span{font-size:10px;color:var(--muted)}
 .badge{font-size:10px;border-radius:999px;padding:4px 7px;background:#e7f5ef;color:#066a4c;height:max-content}.small{font-size:11px;color:var(--muted);margin-top:8px}.empty,.notice{padding:14px;border-radius:12px;background:#f8fafc;color:var(--muted);font-size:12px}
 .notice{background:#fff8e6;color:#73510d}.hidden{display:none!important}
@@ -75,7 +76,7 @@ input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{out
 </style>
 </head>
 <body>
-<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v7.10 TEST</small></h1><div class="sub">公式栄養データ 1383件 / 19チェーン</div></div><div class="badge">公式値DB</div></div></header>
+<header><div class="headerin"><div><h1>外食PFC <small style="font-size:11px">v7.11 TEST</small></h1><div class="sub">公式栄養データ 1383件 / 19チェーン</div></div><div class="badge">公式値DB</div></div></header>
 <main>
 <div class="tabs">
 <button class="tab active" data-tab="search">メニュー</button>
@@ -105,7 +106,7 @@ input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{out
 </div>
 <div class="actions"><button class="btn primary" id="searchBtn">検索</button><button class="btn" id="resetBtn">条件をリセット</button></div>
 </div>
-<div class="card"><div class="small">ガスト・バーミヤンは公式にP・F・Cが公表されていないため、カロリーと食塩のみ表示します。P・F・Cの条件指定時は検索結果から除外します。</div><div class="summary"><h3>検索結果</h3><div id="count" class="count"></div></div><div id="results" class="results"></div></div>
+<div class="card"><div class="small">ガスト・バーミヤンは公式にP・F・Cが公表されていないため、カロリーと食塩のみ表示します。P・F・Cの条件指定時は検索結果から除外します。</div><div class="small">お気に入りは検索条件に合う結果の先頭に表示します。この端末のブラウザに保存されます。</div><div class="summary"><h3>検索結果</h3><div id="count" class="count"></div></div><div id="results" class="results"></div></div>
 </section>
 
 <section id="stores" class="hidden">
@@ -186,6 +187,11 @@ const chains=["CoCo壱番屋", "すき家", "なか卯", "びっくりドンキ�
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 const n=(id,fallback)=>{const v=parseFloat($(id).value);return Number.isFinite(v)?v:fallback};
+const FAVORITES_KEY="gaisyoku-pfc-favorites-v1";
+const menuKeys=data.map(x=>JSON.stringify([x.chain,x.name]));
+const menuIndex=new Map(data.map((x,i)=>[x,i]));
+let favorites=new Set();
+try{const saved=JSON.parse(localStorage.getItem(FAVORITES_KEY)||"[]");if(Array.isArray(saved))favorites=new Set(saved.filter(k=>typeof k==="string"&&menuKeys.includes(k)))}catch(e){}
 
 chains.forEach(x=>{["chain","storeChain"].forEach(id=>$(id).insertAdjacentHTML("beforeend",`<option value="${esc(x)}">${esc(x)}</option>`))});
 
@@ -209,6 +215,16 @@ $("requestForm").addEventListener("submit",e=>{
 });
 ["q","chain","kcal","p","f","c","salt","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",search));
 $("searchBtn").onclick=search;
+$("results").addEventListener("click",e=>{
+ const button=e.target.closest("button[data-favorite-index]");
+ if(!button||!$("results").contains(button))return;
+ const index=Number(button.dataset.favoriteIndex),key=menuKeys[index];
+ if(!Number.isInteger(index)||key===undefined)return;
+ const next=new Set(favorites);
+ if(next.has(key))next.delete(key);else next.add(key);
+ try{localStorage.setItem(FAVORITES_KEY,JSON.stringify([...next]));favorites=next;search()}
+ catch(err){alert("お気に入りを保存できませんでした。ブラウザの保存設定を確認してください。")}
+});
 $("resetBtn").onclick=()=>{["q","kcal","p","f","c","salt"].forEach(id=>$(id).value="");$("chain").value="";$("sort").value="ratio";search()};
 document.querySelectorAll("[data-preset]").forEach(b=>b.onclick=()=>{
  ["kcal","p","f","c","salt"].forEach(id=>$(id).value="");
@@ -227,6 +243,8 @@ function search(){
   (!needsP||(Number.isFinite(x.p)&&x.p>=P))&&(!needsF||(Number.isFinite(x.f)&&x.f<=F))&&(!needsC||(Number.isFinite(x.c)&&x.c<=C)));
  const so=$("sort").value;
  arr.sort((a,b)=>{
+  const af=favorites.has(menuKeys[menuIndex.get(a)]),bf=favorites.has(menuKeys[menuIndex.get(b)]);
+  if(af!==bf)return af?-1:1;
   if(so==="kcal")return a.kcal-b.kcal;
   const av=so==="p"?a.p:so==="fat"?a.f:(Number.isFinite(a.p)?a.p/a.kcal:null);
   const bv=so==="p"?b.p:so==="fat"?b.f:(Number.isFinite(b.p)?b.p/b.kcal:null);
@@ -237,7 +255,7 @@ function search(){
  $("count").textContent=`${arr.length}件 / ${data.length}件${arr.length>1000?'（先頭1000件を表示）':''}`;
  const metric=(v)=>Number.isFinite(v)?`${v}g`:'未公表';
  $("results").innerHTML=arr.length?arr.slice(0,1000).map(x=>`
- <div class="item"><div class="top"><div><div class="name">${esc(x.name)}</div><div class="chain">${esc(x.chain)}</div></div><span class="badge">${Number.isFinite(x.p)?"PFC公式値":"kcal・食塩のみ"}</span></div>
+ <div class="item"><div class="top"><div><div class="name">${esc(x.name)}</div><div class="chain">${esc(x.chain)}</div></div><div class="menu-actions"><span class="badge">${Number.isFinite(x.p)?"PFC公式値":"kcal・食塩のみ"}</span><button type="button" class="favorite-btn" data-favorite-index="${menuIndex.get(x)}" aria-pressed="${favorites.has(menuKeys[menuIndex.get(x)])}" aria-label="${esc(x.chain)} ${esc(x.name)}を${favorites.has(menuKeys[menuIndex.get(x)])?"お気に入りから解除":"お気に入りに登録"}">${favorites.has(menuKeys[menuIndex.get(x)])?"★ お気に入り":"☆ お気に入り"}</button></div></div>
  <div class="metrics"><div class="metricbox"><b>${x.kcal}</b><span>kcal</span></div><div class="metricbox"><b>${metric(x.p)}</b><span>Protein</span></div><div class="metricbox"><b>${metric(x.f)}</b><span>Fat</span></div><div class="metricbox"><b>${metric(x.c)}</b><span>Carb</span></div><div class="metricbox"><b>${metric(x.salt)}</b><span>食塩</span></div></div>
  <div class="small">${Number.isFinite(x.p)?`P効率 ${(x.kcal?x.p/x.kcal*100:0).toFixed(1)} g/100kcal ・ `:"PFCは公式未公表 ・ "}確認日 ${esc(x.checked)}${x.carb_method?` ・ C=${esc(x.carb_method)}`:""}${x.source_url?` ・ <a href="${esc(x.source_url)}" target="_blank" rel="noopener noreferrer">${esc(x.source_link_note||"公式情報")}</a>`:""}</div></div>`).join(""):`<div class="empty">条件に合う収録メニューはありません。</div>`;
 }
